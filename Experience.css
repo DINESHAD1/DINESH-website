@@ -1,5 +1,38 @@
 /* Work_experience */
 
+@media (max-width: 750px) {
+    #Work_experience{
+        width: 70%;
+        font-size: 10px;
+    }
+    #Work_experiences{
+        width: 75%;
+        
+        font-size: 15px;
+    }
+    #Work_experiences:hover{
+        height: 100px;
+        width: 50%;
+        transform: 50ms;
+        font-size: 5px;
+    }
+    
+}
+
+@media (max-width: 410px) {
+    #Work_experiences{
+        font-size: 10px;
+    }
+    #Work_experiences:hover{
+        height: 350px;
+        width: 85%;
+        transform: 50ms;
+        font-size: 10px;
+    }
+    
+}
+
+
 #Work_experience{
     width: 100%;
     background-color: rgb(202, 199, 199);
@@ -15,7 +48,7 @@
 }
 
 #Work_experiences{
-    /* width: 80%; */
+    width: 90%;
     background-color: white;
     height: 300px;
     display: flex;
@@ -25,8 +58,8 @@
     padding-left: 10px;
     box-shadow: 5px 5px 10px;
     border-radius: 5px;
-    font-size: large;
-    font-weight:bold;
+    
+    
 }
 
 #Work_experiences:hover{
